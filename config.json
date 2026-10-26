@@ -1,28 +1,18 @@
 {
   "news": {
-    "provider": "gnews",
-    "apiKey": "https://newsdata.io/api/1/latest? 
-  apikey=pub_2d00ae1fae844d128c8d7793f1c9f7b1
-  &country=us
-  &language=en
-  &category=breaking,business,crime,entertainment,environment",
+    "provider": "newsdata",
+    "apiKey": "pub_2d00ae1fae844d128c8d7793f1c9f7b1",
     "country": "us",
-    "lang": "en"
+    "lang": "en",
+    "category": "breaking,business,crime,entertainment,environment",
+    "full_url": "https://newsdata.io/api/1/latest?apikey=pub_2d00ae1fae844d128c8d7793f1c9f7b1&country=us&language=en&category=breaking,business,crime,entertainment,environment"
   },
   "ads": {
     "enabled": false,
     "banners": {
-      "news":  { "type": "off", "height": 60,  "html": "" },
-      "video": { "type": "off", "height": 60,  "html": "" },
-      "music": { "type": "off", "height": 60,  "html": "" }
+      "news": { "type": "off", "height": 60, "html": "" },
+      "video": { "type": "off", "height": 60, "html": "" },
+      "music": { "type": "off", "height": 60, "html": "" }
     },
     "interstitial": {
-      "type": "off",
-      "height": 420,
-      "html": "",
-      "everyNVideos": 3,
-      "minGapMinutes": 5,
-      "skipAfterSeconds": 5
-    }
-  }
-}
+     
