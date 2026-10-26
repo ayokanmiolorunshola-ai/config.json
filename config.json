@@ -1,10 +1,9 @@
 {
   "news": {
-    "provider": "newsdata.io",
-    "apiKey": "pub_2d00ae1fae844d128c8d7793f1c9f7b1",
+    "provider": "newsapi.org",
+    "apiKey": "66d70e3eae7142a689723e152f065cc0",
     "country": "us",
-    "lang": "en",
-    "category": "breaking,business,crime,entertainment,environment"
+    "lang": "en"
   },
   "ads": {
     "enabled": false,
