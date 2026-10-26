@@ -3,7 +3,8 @@
     "provider": "newsdata.io",
     "apiKey": "pub_2d00ae1fae844d128c8d7793f1c9f7b1",
     "country": "us",
-    "lang": "en"
+    "lang": "en",
+    "category": "breaking,business,crime,entertainment,environment"
   },
   "ads": {
     "enabled": false,
