@@ -1,7 +1,11 @@
 {
   "news": {
     "provider": "gnews",
-    "apiKey": "PASTE_YOUR_KEY_HERE",
+    "apiKey": "https://newsdata.io/api/1/latest? 
+  apikey=pub_2d00ae1fae844d128c8d7793f1c9f7b1
+  &country=us
+  &language=en
+  &category=breaking,business,crime,entertainment,environment",
     "country": "us",
     "lang": "en"
   },
