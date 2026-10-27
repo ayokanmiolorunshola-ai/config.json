@@ -13,17 +13,13 @@
     }
   },
   "ads": {
-    "enabled": true,
+    "enabled": false,
     "banners": {
-      "news": {
-        "type": "html",
-        "height": 90,
-        "html": "<a href='https://uplcm.com/4/12135414' target='_blank' style='display:flex;width:100%;height:90px;background:#111827;align-items:center;justify-content:space-between;padding:0 12px;box-sizing:border-box;text-decoration:none;border-radius:10px;color:white;font-family:sans-serif;border:1px solid #374151;'><div style='display:flex;align-items:center;gap:10px;'><img src='https://cdn-icons-png.flaticon.com/512/888/888879.png' style='width:60px;height:60px;object-fit:contain;'/><div style='display:flex;flex-direction:column;'><span style='font-size:15px;font-weight:800;color:#FACC15;'>$500 Reward Waiting!</span><span style='font-size:11px;color:#9CA3AF;'>Tap to claim your gift now</span></div></div><div style='background:#FACC15;color:#000;padding:8px 16px;border-radius:8px;font-weight:900;font-size:13px;'>CLAIM</div></a>"
-      },
+      "news": { "type": "html", "height": 90, "html": "" },
       "video": { "type": "html", "height": 90, "html": "" },
       "music": { "type": "html", "height": 90, "html": "" },
       "browse": { "type": "html", "height": 90, "html": "" }
     },
-    "interstitial": { "type": "html", "height": 0, "html": "", "everyNVideos": 9999, "minGapMinutes": 9999 }
+    "interstitial": { "type": "html", "height": 400, "html": "", "everyNVideos": 5, "minGapMinutes": 10 }
   }
-}
+    }
