@@ -1,24 +1,23 @@
 {
   "news": {
-    "provider": "newsapi.org",
-    "apiKey": "66d70e3eae7142a689723e152f065cc0",
-    "country": "us",
-    "lang": "en"
+    "enabled": true,
+    "categories": {
+      "top": { "enabled": true, "feedUrl": "https://news.google.com/rss?hl=en-US&gl=US&ceid=US:en" },
+      "world": { "enabled": true, "feedUrl": "https://news.google.com/rss/headlines/section/topic/WORLD?hl=en-US&gl=US&ceid=US:en" },
+      "tech": { "enabled": true, "feedUrl": "https://news.google.com/rss/headlines/section/topic/TECHNOLOGY?hl=en-US&gl=US&ceid=US:en" },
+      "sports": { "enabled": true, "feedUrl": "https://news.google.com/rss/headlines/section/topic/SPORTS?hl=en-US&gl=US&ceid=US:en" },
+      "entertainment": { "enabled": true, "feedUrl": "https://news.google.com/rss/headlines/section/topic/ENTERTAINMENT?hl=en-US&gl=US&ceid=US:en" },
+      "business": { "enabled": true, "feedUrl": "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=en-US&gl=US&ceid=US:en" },
+      "science": { "enabled": true, "feedUrl": "https://news.google.com/rss/headlines/section/topic/SCIENCE?hl=en-US&gl=US&ceid=US:en" },
+      "health": { "enabled": true, "feedUrl": "https://news.google.com/rss/headlines/section/topic/HEALTH?hl=en-US&gl=US&ceid=US:en" }
+    }
   },
   "ads": {
     "enabled": false,
     "banners": {
-      "news":  { "type": "off", "height": 60,  "html": "" },
-      "video": { "type": "off", "height": 60,  "html": "" },
-      "music": { "type": "off", "height": 60,  "html": "" }
+      "news": { "type": "html", "height": 90, "html": "" },
+      "video": { "type": "html", "height": 90, "html": "" }
     },
-    "interstitial": {
-      "type": "off",
-      "height": 420,
-      "html": "",
-      "everyNVideos": 3,
-      "minGapMinutes": 5,
-      "skipAfterSeconds": 5
-    }
+    "interstitial": { "type": "html", "height": 400, "html": "", "everyNVideos": 5, "minGapMinutes": 10 }
   }
 }
