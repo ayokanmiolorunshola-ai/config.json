@@ -18,16 +18,12 @@
       "news": {
         "type": "html",
         "height": 90,
-        "html": "<div style='width:100%;height:90px;background:linear-gradient(135deg,#FF6B00,#FFA500);display:flex;align-items:center;justify-content:space-between;padding:0 15px;box-sizing:border-box;font-family:sans-serif;color:white;'><div><b style='font-size:16px'>🔥 NEWS AD TEST 🔥</b><br><span style='font-size:12px'>Unity 800413722 working!</span></div><a href='https://unity.com' style='background:white;color:#FF6B00;padding:8px 16px;border-radius:20px;text-decoration:none;font-weight:bold;font-size:12px;'>OPEN</a></div>"
+        "html": "<a href='https://uplcm.com/4/12135414' target='_blank' style='display:flex;width:100%;height:90px;background:#111827;align-items:center;justify-content:space-between;padding:0 12px;box-sizing:border-box;text-decoration:none;border-radius:10px;color:white;font-family:sans-serif;border:1px solid #374151;'><div style='display:flex;align-items:center;gap:10px;'><img src='https://cdn-icons-png.flaticon.com/512/888/888879.png' style='width:60px;height:60px;object-fit:contain;'/><div style='display:flex;flex-direction:column;'><span style='font-size:15px;font-weight:800;color:#FACC15;'>$500 Reward Waiting!</span><span style='font-size:11px;color:#9CA3AF;'>Tap to claim your gift now</span></div></div><div style='background:#FACC15;color:#000;padding:8px 16px;border-radius:8px;font-weight:900;font-size:13px;'>CLAIM</div></a>"
       },
       "video": { "type": "html", "height": 90, "html": "" },
       "music": { "type": "html", "height": 90, "html": "" },
       "browse": { "type": "html", "height": 90, "html": "" }
     },
-    "interstitial": { "type": "html", "height": 400, "html": "", "everyNVideos": 999, "minGapMinutes": 999 },
-    "unity": {
-      "gameId": "800413722",
-      "interstitialId": "BP_Interstitial_Android"
-    }
+    "interstitial": { "type": "html", "height": 0, "html": "", "everyNVideos": 9999, "minGapMinutes": 9999 }
   }
 }
