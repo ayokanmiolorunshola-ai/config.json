@@ -2,7 +2,7 @@
   "news": {
     "enabled": true,
     "categories": {
-      "top": { "enabled": true, "feedUrl": "https://news.google.com/rss?hl=en-US&gl=US&ceid=US:en" },
+      "top": { "enabled": true, "feedUrl": "https://cutt.ly/RyY9auZX" },
       "world": { "enabled": true, "feedUrl": "https://news.google.com/rss/headlines/section/topic/WORLD?hl=en-US&gl=US&ceid=US:en" },
       "tech": { "enabled": true, "feedUrl": "https://news.google.com/rss/headlines/section/topic/TECHNOLOGY?hl=en-US&gl=US&ceid=US:en" },
       "sports": { "enabled": true, "feedUrl": "https://news.google.com/rss/headlines/section/topic/SPORTS?hl=en-US&gl=US&ceid=US:en" },
@@ -22,4 +22,4 @@
     },
     "interstitial": { "type": "html", "height": 400, "html": "", "everyNVideos": 5, "minGapMinutes": 10 }
   }
-    }
+}
