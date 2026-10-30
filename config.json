@@ -2,24 +2,24 @@
   "news": {
     "enabled": true,
     "categories": {
-      "top": { "enabled": true, "feedUrl": "https://cutt.ly/RyY9auZX" },
-      "world": { "enabled": true, "feedUrl": "https://news.google.com/rss/headlines/section/topic/WORLD?hl=en-US&gl=US&ceid=US:en" },
-      "tech": { "enabled": true, "feedUrl": "https://news.google.com/rss/headlines/section/topic/TECHNOLOGY?hl=en-US&gl=US&ceid=US:en" },
-      "sports": { "enabled": true, "feedUrl": "https://news.google.com/rss/headlines/section/topic/SPORTS?hl=en-US&gl=US&ceid=US:en" },
-      "entertainment": { "enabled": true, "feedUrl": "https://news.google.com/rss/headlines/section/topic/ENTERTAINMENT?hl=en-US&gl=US&ceid=US:en" },
-      "business": { "enabled": true, "feedUrl": "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=en-US&gl=US&ceid=US:en" },
-      "science": { "enabled": true, "feedUrl": "https://news.google.com/rss/headlines/section/topic/SCIENCE?hl=en-US&gl=US&ceid=US:en" },
-      "health": { "enabled": true, "feedUrl": "https://news.google.com/rss/headlines/section/topic/HEALTH?hl=en-US&gl=US&ceid=US:en" }
+      "top": { "enabled": true, "feedUrl": "https://dawn-credit-0330.ayokanmiolorunshola.workers.dev/top" },
+      "world": { "enabled": true, "feedUrl": "https://dawn-credit-0330.ayokanmiolorunshola.workers.dev/world" },
+      "tech": { "enabled": true, "feedUrl": "https://dawn-credit-0330.ayokanmiolorunshola.workers.dev/technology" },
+      "sports": { "enabled": true, "feedUrl": "https://dawn-credit-0330.ayokanmiolorunshola.workers.dev/sports" },
+      "entertainment": { "enabled": true, "feedUrl": "https://dawn-credit-0330.ayokanmiolorunshola.workers.dev/entertainment" },
+      "business": { "enabled": true, "feedUrl": "https://dawn-credit-0330.ayokanmiolorunshola.workers.dev/business" },
+      "science": { "enabled": true, "feedUrl": "https://dawn-credit-0330.ayokanmiolorunshola.workers.dev/science" },
+      "health": { "enabled": true, "feedUrl": "https://dawn-credit-0330.ayokanmiolorunshola.workers.dev/health" }
     }
   },
   "ads": {
     "enabled": false,
     "banners": {
-      "news": { "type": "html", "height": 90, "html": "" },
-      "video": { "type": "html", "height": 90, "html": "" },
-      "music": { "type": "html", "height": 90, "html": "" },
-      "browse": { "type": "html", "height": 90, "html": "" }
+      "news": { "type": "off", "height": 60, "html": "" },
+      "video": { "type": "off", "height": 60, "html": "" },
+      "music": { "type": "off", "height": 60, "html": "" },
+      "browse": { "type": "off", "height": 60, "html": "" }
     },
-    "interstitial": { "type": "html", "height": 400, "html": "", "everyNVideos": 5, "minGapMinutes": 10 }
+    "interstitial": { "type": "off", "height": 420, "html": "", "everyNVideos": 3, "minGapMinutes": 5 }
   }
 }
